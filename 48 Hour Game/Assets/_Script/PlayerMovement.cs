@@ -29,17 +29,17 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		if (Input.GetKey(KeyCode.LeftShift) && Input.GetAxis("Horizontal") != 0 && canRun == true)
 		{
-			speed = 9;
+			speed = 15;
 			isRunning = true;
 		}
 		if (Input.GetKey(KeyCode.LeftShift) && Input.GetAxis("Vertical") != 0 && canRun == true)
 		{
-			speed = 9;
+			speed = 15;
 			isRunning = true;
 		}
 		if (Input.GetKeyUp(KeyCode.LeftShift) || canRun == false)
 		{
-			speed = 6;
+			speed = 10;
 			isRunning = false;
 		}
 		moveDirection.y -= gravity * Time.deltaTime;

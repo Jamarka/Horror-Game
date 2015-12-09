@@ -48,6 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\_Script\MouseLook.cs" />
      <Compile Include="Assets\_Script\PlayerMovement.cs" />
+     <Compile Include="Assets\_Script\Traps\DoorTrigger.cs" />
+     <Compile Include="Assets\_Script\Traps\MovingWall.cs" />
+     <Compile Include="Assets\_Script\Traps\SpikeWallDetection.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
