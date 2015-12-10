@@ -1,8 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Script\PlayerMovement.cs">
     <Files>
       <File FileName="Assets\_Script\PlayerMovement.cs" Line="54" Column="4" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Script\LevelManager.cs">
+    <Files>
+      <File FileName="Assets\_Script\LevelManager.cs" Line="6" Column="10" />
+>>>>>>> origin/master
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
