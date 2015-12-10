@@ -14,7 +14,7 @@ public class menuScript : MonoBehaviour {
 		quitMenu = quitMenu.GetComponent<Canvas> ();
 		buttons = buttons.GetComponent<Canvas> ();
 		quitMenu.enabled = false;
-		audio =  audio.GetComponent<AudioSource> ();
+		audio = audio.GetComponent<AudioSource> ();
 	}
 	
 	public void ExitPress(){

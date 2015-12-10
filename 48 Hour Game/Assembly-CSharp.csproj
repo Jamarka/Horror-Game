@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\_Script\LevelManager.cs" />
      <Compile Include="Assets\_Script\MouseLook.cs" />
+     <Compile Include="Assets\_Script\PlayerCollisions.cs" />
      <Compile Include="Assets\_Script\PlayerMovement.cs" />
      <Compile Include="Assets\_Script\Traps\DoorTrigger.cs" />
      <Compile Include="Assets\_Script\Traps\MovingWall.cs" />
