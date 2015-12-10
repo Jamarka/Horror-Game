@@ -6,6 +6,7 @@ public class menuScript : MonoBehaviour {
 
 	public Canvas quitMenu;
 	public Canvas buttons;
+	public AudioSource audio;
 
 	// Use this for initialization
 	void Start () {
@@ -13,8 +14,8 @@ public class menuScript : MonoBehaviour {
 		quitMenu = quitMenu.GetComponent<Canvas> ();
 		buttons = buttons.GetComponent<Canvas> ();
 		quitMenu.enabled = false;
+		audio =  audio.GetComponent<AudioSource> ();
 	}
-	
 	
 	public void ExitPress(){
 		quitMenu.enabled = true;
@@ -27,11 +28,18 @@ public class menuScript : MonoBehaviour {
 	}
 	
 	public void StartLevel() {
-		Application.LoadLevel (1);
+		audio.Play ();
+		StartCoroutine(Example());
 	}
 	
 	public void ExitGame() {
 		Application.Quit();
+	}
+
+	
+	IEnumerator Example() {
+		yield return new WaitForSeconds(audio.clip.length);
+		Application.LoadLevel (1);
 	}
 
 }
