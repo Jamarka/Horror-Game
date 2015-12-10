@@ -21,6 +21,7 @@ public class SpikeWallDetection : MonoBehaviour {
 		{
 			movingWall.hasHitWall = true;
 			hasHit = true;
+			Application.LoadLevel(0);
 		}
 	}
 }
