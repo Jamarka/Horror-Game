@@ -10,6 +10,10 @@ public class PlayerMovement : MonoBehaviour {
 	public bool canRun = true;
 	public GameObject mouseLook;
 	private Vector3 moveDirection = Vector3.zero;
+
+	public bool isDead = false;
+	public Rigidbody rigidbody;
+
 	void Update() {
 
 		mouseLook = gameObject.transform.FindChild ("Main Camera").gameObject;
@@ -45,4 +49,7 @@ public class PlayerMovement : MonoBehaviour {
 		moveDirection.y -= gravity * Time.deltaTime;
 		controller.Move(moveDirection * Time.deltaTime);
 	}
+
+	void OnCollisionEnter ()
+	{}
 }
