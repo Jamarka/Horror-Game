@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 Base path: E:/Programs/Unity5.1.1f1/Editor/Data
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-88248
+=======
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-44108
+>>>>>>> origin/PerMallet
 Cmd: getPlatforms
